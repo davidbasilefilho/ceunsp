@@ -2,7 +2,8 @@
 #include <stdlib.h>
 
 int main(int argc, char *argv[]) {
-  printf("Shine On You, Crazy Diamond!\n");
+  printf("Hello, World!\n");
+  printf("Shine On You, Crazy Diamond!");
   getchar();
   return 0;
 }
