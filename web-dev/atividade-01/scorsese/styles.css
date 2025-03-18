@@ -1,0 +1,284 @@
+:root {
+  --background: 0 0% 3.9%;
+  --foreground: 0 0% 98%;
+  --card: 0 0% 3.9%;
+  --card-foreground: 0 0% 98%;
+  --primary: 0 72.2% 50.6%;
+  --primary-foreground: 0 85.7% 97.3%;
+  --secondary: 0 0% 14.9%;
+  --secondary-foreground: 0 0% 98%;
+  --muted: 0 0% 14.9%;
+  --muted-foreground: 0 0% 63.9%;
+  --border: 0 0% 14.9%;
+  --ring: 0 72.2% 50.6%;
+  --radius: 1rem;
+}
+
+body {
+  font-family: "Inter", Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: hsl(var(--foreground));
+  background-color: hsl(var(--background));
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0.5rem 0;
+  line-height: 1.2;
+  color: hsl(var(--foreground));
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 2rem;
+  border-bottom: 3px solid hsl(var(--primary));
+  padding-bottom: 0.75rem;
+  display: inline-block;
+}
+
+h3 {
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+
+header {
+  background-color: hsl(var(--background) / 80%);
+  backdrop-filter: blur(10px);
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid hsl(var(--border));
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+
+header * {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.hero {
+  height: 75vh;
+  min-height: 400px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),
+    url("https://uploads.metroimg.com/wp-content/uploads/2025/03/10133342/Martin-Scorsese.jpg");
+  background-position: top;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: hsl(var(--foreground));
+  padding: 0 1.2rem;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.2rem;
+}
+
+section {
+  margin-bottom: 3rem;
+  padding-top: 2rem;
+}
+
+.director-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+}
+
+.text-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.text-content p {
+  line-height: 1.7;
+  margin-bottom: 0.5rem;
+  color: hsl(var(--foreground));
+}
+
+.btn {
+  display: inline-block;
+  background-color: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--radius);
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+.btn:hover {
+  filter: brightness(1.2);
+}
+
+.image-wrapper {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+}
+
+.director-image {
+  width: 100%;
+  max-width: 450px;
+  aspect-ratio: 7 / 5;
+  object-fit: cover;
+  border-radius: var(--radius);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  border: 1px solid hsl(var(--border));
+}
+
+.films-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.film-card {
+  background-color: hsl(var(--card));
+  border: 1px solid hsl(var(--border));
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  height: 100%;
+  color: hsl(var(--card-foreground));
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.film-card:hover {
+  border-color: hsl(var(--primary));
+  box-shadow: 0 2px 8px rgba(220, 60, 60, 0.2);
+  transform: translateY(-3px);
+}
+
+.film-year {
+  font-size: 0.875rem;
+  color: hsl(var(--muted-foreground));
+  margin-bottom: 0.5rem;
+}
+
+.collaborators-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 2rem;
+}
+
+.collaborator-card {
+  position: relative;
+  height: 360px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.collaborator-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.collaborator-card:hover .collaborator-image {
+  transform: scale(1.05);
+}
+
+.collaborator-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: linear-gradient(
+    to top,
+    hsl(var(--background) / 95%) 0%,
+    hsl(var(--background) / 80%) 30%,
+    transparent 60%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1.5rem;
+}
+
+.collaborator-info {
+  text-align: left;
+}
+
+.collaborator-info h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.6rem;
+}
+
+.collaborator-info p {
+  margin: 0.25rem 0;
+  color: hsl(var(--foreground));
+}
+
+.collaborator-films {
+  font-style: italic;
+  color: hsl(var(--muted-foreground));
+  margin-top: 0.5rem;
+}
+
+footer {
+  background-color: hsl(var(--background));
+  border-top: 1px solid hsl(var(--border));
+  padding: 0.75rem;
+  color: hsl(var(--secondary-foreground));
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero p {
+    font-size: 1.25rem;
+  }
+
+  .director-info {
+    flex-direction: column;
+  }
+
+  .films-grid {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  }
+
+  .collaborators-grid {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  }
+}
