@@ -27,11 +27,5 @@ int main(int argc, char *argv[]) {
                    // scanf anterior, name é um array, que decai para um
                    // ponteiro, então não precisamos do &.
   printf("Esse número ao quadrado é igual a %d\n", a * a);
-
-  printf("Pressione Enter para continuar...");
-  // Limpa o buffer de entrada primeiro
-  while (getchar() != '\n')
-    ;
-  getchar(); // Agora espera o usuário pressionar Enter
   return 0;
 }
