@@ -15,19 +15,23 @@ int main(int argc, char *argv[]) {
   printf("Shine On You, Crazy Diamond!\n"); // \n pula linha
   printf("\nWhat is your name?\n");
 
-  char *name; // String, array de caracteres, isto é, um pointer (uma referência
-              // da memória para um valor) para um array de caracteres
+  char name[50];     // String com tamanho fixo de 50 caracteres
   scanf("%s", name); // Lê o nome do usuário. %s é o formato para string
 
   printf("Hello, %s!\n", name); // Usando o nome do usuário
 
   int a = 0; // cria variável de valor inteiro 32-bit
-  scanf("\nDigite um número: %d ",
-        &a); // Lê um número inteiro. Por quê usamos &? Porque scanf espera um
-             // endereço de memória, isto é, um ponteiro. no scanf anterior, o
-             // name já é um ponteiro, então não precisamos do &.
+  printf("Digite um número: ");
+  scanf("%d", &a); // Lê um número inteiro. Por quê usamos &? Porque scanf
+                   // espera um endereço de memória, isto é, um ponteiro. No
+                   // scanf anterior, name é um array, que decai para um
+                   // ponteiro, então não precisamos do &.
   printf("Esse número ao quadrado é igual a %d\n", a * a);
 
-  getchar(); // Espera o usuário pressionar Enter
+  printf("Pressione Enter para continuar...");
+  // Limpa o buffer de entrada primeiro
+  while (getchar() != '\n')
+    ;
+  getchar(); // Agora espera o usuário pressionar Enter
   return 0;
 }
