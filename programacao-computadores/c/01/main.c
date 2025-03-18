@@ -27,5 +27,13 @@ int main(int argc, char *argv[]) {
                    // scanf anterior, name é um array, que decai para um
                    // ponteiro, então não precisamos do &.
   printf("Esse número ao quadrado é igual a %d\n", a * a);
+
+  int b = 0;
+  printf("Agora digite outro número: ");
+  scanf("%d", &b);
+
+  int soma =
+      a + b; // Alocação de memória desnecessária, porém o professor pediu.
+  printf("A soma dos números que você digitou é igual a %d\n", soma);
   return 0;
 }
