@@ -1,18 +1,46 @@
 body {
   background-color: #04081a;
   font-family: Inter, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 2rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body * {
+  margin: 0;
 }
 
 p {
   color: #909fe8;
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: #5c75f7;
+  text-decoration: none;
+  font-weight: 700;
+  border-bottom: 2px solid #5c75f7;
+  font-size: 1.1rem;
+}
+
+a:hover {
+  color: #3e5aed;
+  border-bottom: 2px solid #3e5aed;
 }
 
 h1 {
   color: #5c75f7;
+  margin-bottom: 0.7rem;
 }
 
 img {
-  width: 200px;
-  height: auto;
+  width: auto;
+  height: 8rem;
   border-radius: 20px;
 }
