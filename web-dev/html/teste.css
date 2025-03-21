@@ -1,0 +1,18 @@
+body {
+  background-color: #04081a;
+  font-family: Inter, sans-serif;
+}
+
+p {
+  color: #909fe8;
+}
+
+h1 {
+  color: #5c75f7;
+}
+
+img {
+  width: 200px;
+  height: auto;
+  border-radius: 20px;
+}
