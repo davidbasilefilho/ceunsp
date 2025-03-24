@@ -1,4 +1,16 @@
+---
+id: arquiteturas
+aliases: []
+tags: []
+---
+
 # Arquiteturas
+
+**Tópicos relacionados:**
+- [Arquitetura de Computadores](arquitetura-computadores.md)
+- [Organização de Computador](organização-computador.md)
+- [ARM](../cpu/arm.md)
+- [Conjuntos de Instruções](../cpu/sets-instrucoes.md)
 
 ### Microcontroladores
 

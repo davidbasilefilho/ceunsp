@@ -1,3 +1,17 @@
+---
+id: registradores
+aliases: []
+tags: []
+---
+
+# Registradores
+
+**Tópicos relacionados:**
+- [Visão Geral da CPU](visao-geral.md)
+- [ULA](ula.md)
+- [Memória](memoria.md)
+- [Modos de Endereçamento](modos-enderecamento.md)
+- [Arquitetura de Computadores](../arquiteturas/arquitetura-computadores.md)
 # Registradores da CPU
 
 Os registradores são pequenas unidades de memória de alta velocidade incorporadas diretamente na CPU. Eles são essenciais para o funcionamento do processador, armazenando temporariamente dados, instruções e endereços durante a execução de programas.

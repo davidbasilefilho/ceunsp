@@ -1,3 +1,15 @@
+---
+id: explicacao
+aliases: []
+tags: []
+---
+
+# CSS: Explicação
+
+**Tópicos relacionados:**
+- [HTML](../html/explicacao.md)
+- [Estrutura HTML](../html/estrutura.md)
+- [jQuery](../jquery/explicacao.md)
 # CSS
 
 ## O que é?

@@ -1,3 +1,17 @@
+---
+id: ula
+aliases: []
+tags: []
+---
+
+# Unidade Lógica e Aritmética (ULA)
+
+**Tópicos relacionados:**
+- [Visão Geral da CPU](visao-geral.md)
+- [Registradores](registradores.md)
+- [Operações da ULA](operacoes-ula.md)
+- [Instruções](instrucoes.md)
+- [Arquitetura de Computadores](../arquiteturas/arquitetura-computadores.md)
 # Operações da ULA (Unidade Lógica e Aritmética)
 
 A Unidade Lógica e Aritmética (ULA ou ALU - Arithmetic Logic Unit) é um componente fundamental da CPU responsável por realizar operações matemáticas e lógicas. É o "cérebro matemático" do processador, executando cálculos essenciais para o funcionamento do computador.

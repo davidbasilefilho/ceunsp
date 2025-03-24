@@ -1,3 +1,18 @@
+---
+id: sets-instrucoes
+aliases: []
+tags: []
+---
+
+# Conjuntos de Instruções
+
+**Tópicos relacionados:**
+- [Visão Geral da CPU](visao-geral.md)
+- [Instruções](instrucoes.md)
+- [ARM](arm.md)
+- [Modos de Endereçamento](modos-enderecamento.md)
+- [Arquitetura de Computadores](../arquiteturas/arquitetura-computadores.md)
+- [Tipos de Arquiteturas](../arquiteturas/arquiteturas.md)
 # Sets de instruções da CPU
 
 

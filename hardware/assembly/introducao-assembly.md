@@ -1,3 +1,17 @@
+---
+id: introducao-assembly
+aliases: []
+tags: []
+---
+
+# Introdução ao Assembly
+
+**Tópicos relacionados:**
+- [Sintaxe Assembly](sintaxe-assembly.md)
+- [Instruções](../cpu/instrucoes.md)
+- [Conjuntos de Instruções](../cpu/sets-instrucoes.md)
+- [Registradores](../cpu/registradores.md)
+- [Modos de Endereçamento](../cpu/modos-enderecamento.md)
 # Introdução a Assembly
 
 

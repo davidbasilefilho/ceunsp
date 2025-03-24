@@ -1,4 +1,19 @@
+---
+id: organização-computador
+aliases: []
+tags: []
+---
+
 # Organização de um computador
+
+**Tópicos relacionados:**
+- [Arquitetura de Computadores](arquitetura-computadores.md)
+- [Tipos de Arquiteturas](arquiteturas.md)
+- [ULA](../cpu/ula.md)
+- [Memória](../cpu/memoria.md)
+- [Registradores](../cpu/registradores.md)
+- [Barramento e Armazenamento](../cpu/barramento-armazenamento.md)
+- [Processo de Boot](../cpu/processo-boot.md)
 
 ## CPU (Unidade Central de Processamento)
 

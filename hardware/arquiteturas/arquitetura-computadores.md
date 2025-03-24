@@ -1,6 +1,21 @@
+---
+id: arquitetura-computadores
+aliases: []
+tags: []
+---
+
 # Arquitetura de computadores
 
 Estrutura hierárquica dos sistemas computacionais, do nível mais abstrato ao físico.
+
+**Tópicos relacionados:**
+- [Organização de um computador](organização-computador.md)
+- [Tipos de Arquiteturas](arquiteturas.md)
+- [Visão Geral da CPU](../cpu/visao-geral.md)
+- [Registradores](../cpu/registradores.md)
+- [ULA](../cpu/ula.md)
+- [Memória](../cpu/memoria.md)
+- [Conjuntos de Instruções](../cpu/sets-instrucoes.md)
 
 
 ## Aplicação

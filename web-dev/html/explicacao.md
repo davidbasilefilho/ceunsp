@@ -1,6 +1,21 @@
 ---
 id: explicacao
 aliases: []
+tags: []
+---
+
+# HTML: Explicação
+
+**Tópicos relacionados:**
+- [Estrutura HTML](estrutura.md)
+- [CSS](../css/explicacao.md)
+- [PHP](../php/explicacao.md)
+- [jQuery](../jquery/explicacao.md)
+- [URLs e Domínios](../http/urls-domains.md)
+- [Básico de HTTP Requests](../http/basico-http-requests.md)
+---
+id: explicacao
+aliases: []
 tags:
   - html
 ---

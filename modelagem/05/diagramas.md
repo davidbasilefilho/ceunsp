@@ -3,6 +3,18 @@ id: diagramas
 aliases: []
 tags: []
 ---
+
+# Diagramas
+
+**Tópicos relacionados:**
+- [Manifesto Ágil](../04/manifesto-agil.md)
+- [Testes Automatizados](../03/testes-automatizados.md)
+- [Modelo Cascata](../02/modelo-cascata.md)
+---
+id: diagramas
+aliases: []
+tags: []
+---
 # A Importância dos Diagramas na Modelagem de Software
 
 Os diagramas são ferramentas essenciais na modelagem de software pelos seguintes motivos:

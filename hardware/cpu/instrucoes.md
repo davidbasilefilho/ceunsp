@@ -1,3 +1,16 @@
+---
+id: instrucoes
+aliases: []
+tags: []
+---
+
+# Instruções
+
+**Tópicos relacionados:**
+- [Conjuntos de Instruções](sets-instrucoes.md) 
+- [Operações da ULA](operacoes-ula.md)
+- [Modos de Endereçamento](modos-enderecamento.md)
+- [Assembly](../assembly/sintaxe-assembly.md)
 # Instruções da CPU
 
 

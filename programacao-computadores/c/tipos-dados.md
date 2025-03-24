@@ -1,6 +1,19 @@
 ---
 id: tipos-dados
 aliases: []
+tags: []
+---
+
+# Tipos de Dados em C
+
+**Tópicos relacionados:**
+- [Básico de C](basico-c.md)
+- [Ponteiros](ponteiros.md)
+- [Structs](structs.md)
+- [Stack e Heap](stack-heap.md)
+---
+id: tipos-dados
+aliases: []
 tags:
   - c
   - programacao

@@ -1,3 +1,20 @@
+---
+id: visao-geral
+aliases: []
+tags: []
+---
+
+# Visão Geral da CPU
+
+**Tópicos relacionados:**
+- [Arquitetura de Computadores](../arquiteturas/arquitetura-computadores.md)
+- [Organização de Computador](../arquiteturas/organização-computador.md)
+- [ULA](ula.md)
+- [Registradores](registradores.md)
+- [Instruções](instrucoes.md)
+- [Memória](memoria.md)
+- [Sets de Instruções](sets-instrucoes.md)
+- [Multithreading](multithreading.md)
 # Visão geral da CPU e seu funcionamento
 
 A Unidade Central de Processamento (CPU) é o componente principal de um computador, responsável por executar instruções e processar dados.

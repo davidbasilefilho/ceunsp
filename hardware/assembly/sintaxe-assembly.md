@@ -1,3 +1,16 @@
+---
+id: sintaxe-assembly
+aliases: []
+tags: []
+---
+
+# Sintaxe Assembly
+
+**Tópicos relacionados:**
+- [Introdução ao Assembly](introducao-assembly.md)
+- [Instruções](../cpu/instrucoes.md)
+- [Modos de Endereçamento](../cpu/modos-enderecamento.md)
+- [Registradores](../cpu/registradores.md)
 # Sintáxe Assembly e exemplos
 
 

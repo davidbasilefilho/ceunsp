@@ -1,3 +1,15 @@
+---
+id: basico-http-requests
+aliases: []
+tags: []
+---
+
+# Básico de HTTP Requests
+
+**Tópicos relacionados:**
+- [URLs e Domínios](urls-domains.md)
+- [HTML](../html/explicacao.md)
+- [PHP](../php/explicacao.md)
 
 
 

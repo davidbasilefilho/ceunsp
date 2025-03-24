@@ -1,3 +1,15 @@
+---
+id: explicacao
+aliases: []
+tags: []
+---
+
+# jQuery: Explicação
+
+**Tópicos relacionados:**
+- [HTML](../html/explicacao.md)
+- [CSS](../css/explicacao.md)
+- [PHP](../php/explicacao.md)
 # jQuery
 
 ## O que é?

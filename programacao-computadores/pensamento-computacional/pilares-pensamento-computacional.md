@@ -1,3 +1,16 @@
+---
+id: pilares-pensamento-computacional
+aliases: []
+tags: []
+---
+
+# Pilares do Pensamento Computacional
+
+**Tópicos relacionados:**
+- [Fluxograma](fluxograma.md)
+- [Básico de C](../../c/basico-c.md)
+- [Aula 01](01.md)
+- [Plano de Aula](plano-aula.md)
 
 
 

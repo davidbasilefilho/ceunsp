@@ -1,3 +1,15 @@
+---
+id: manifesto-agil
+aliases: []
+tags: []
+---
+
+# Manifesto Ágil
+
+**Tópicos relacionados:**
+- [Diagramas](../05/diagramas.md)
+- [Testes Automatizados](../03/testes-automatizados.md)
+- [Modelo Cascata](../02/modelo-cascata.md)
 # Manifesto ágil
 
 ## Indivíduos e interações

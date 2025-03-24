@@ -1,3 +1,15 @@
+---
+id: explicacao
+aliases: []
+tags: []
+---
+
+# PHP: Explicação
+
+**Tópicos relacionados:**
+- [HTML](../html/explicacao.md)
+- [jQuery](../jquery/explicacao.md)
+- [Básico de HTTP Requests](../http/basico-http-requests.md)
 # PHP
 
 ## O que é?

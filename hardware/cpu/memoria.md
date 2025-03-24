@@ -1,3 +1,17 @@
+---
+id: memoria
+aliases: []
+tags: []
+---
+
+# Memória
+
+**Tópicos relacionados:**
+- [Visão Geral da CPU](visao-geral.md)
+- [Registradores](registradores.md)
+- [Barramento e Armazenamento](barramento-armazenamento.md)
+- [Processo de Boot](processo-boot.md)
+- [Arquitetura de Computadores](../arquiteturas/arquitetura-computadores.md)
 # Tipos de memória
 
 Um computador utiliza diversos tipos de memória, cada uma com características específicas

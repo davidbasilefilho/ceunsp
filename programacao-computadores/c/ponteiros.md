@@ -1,6 +1,19 @@
 ---
 id: ponteiros
 aliases: []
+tags: []
+---
+
+# Ponteiros em C
+
+**Tópicos relacionados:**
+- [Básico de C](basico-c.md)
+- [Tipos de Dados em C](tipos-dados.md)
+- [Structs](structs.md)
+- [Stack e Heap](stack-heap.md)
+---
+id: ponteiros
+aliases: []
 tags:
   - c
   - memoria
