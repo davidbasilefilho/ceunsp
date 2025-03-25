@@ -11,14 +11,6 @@ tags: []
 - [Tipos de Dados em C](tipos-dados.md)
 - [Structs](structs.md)
 - [Stack e Heap](stack-heap.md)
----
-id: ponteiros
-aliases: []
-tags:
-  - c
-  - memoria
-  - programacao
----
 
 
 # Ponteiros em C

@@ -12,13 +12,6 @@ tags: []
 - [Structs](structs.md)
 - [Stack e Heap](stack-heap.md)
 - [Pilares do Pensamento Computacional](../pensamento-computacional/pilares-pensamento-computacional.md)
----
-id: basico-c
-aliases: []
-tags:
-  - c
-  - programacao
----
 
 # Linguagem C - Conceitos Básicos
 

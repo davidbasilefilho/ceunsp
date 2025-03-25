@@ -10,15 +10,6 @@ tags: []
 - [Básico de C](basico-c.md)
 - [Ponteiros](ponteiros.md)
 - [Memória](../../hardware/cpu/memoria.md)
----
-id: stack-heap
-aliases: []
-tags:
-  - conceito
-  - memoria
-  - c
-  - programacao
----
 
 # Memórias Stack e Heap
 

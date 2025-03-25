@@ -10,15 +10,6 @@ tags: []
 - [Básico de C](basico-c.md)
 - [Tipos de Dados em C](tipos-dados.md)
 - [Ponteiros](ponteiros.md)
----
-id: structs
-aliases: []
-tags:
-  - c
-  - programacao
-  - data
----
-
 
 # Structs em C
 
